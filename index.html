@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VioStore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.jpg" width="64" alt="">
+        <strong><a href="index.html"
+            style="text-decoration: none; color: inherit; font-size: xx-large; margin: 5px;">VioStore</a></strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" style="margin: 5px;">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html" style="margin: 5px;">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+              style="margin: 5px;">
+              Mas...
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Pedidos</a></li>
+              <li><a class="dropdown-item" href="#">Acerca de...</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Catalogo</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <a href="perfil.html"><img src="img/perfil.png" width="34" alt=""
+            onclick="window.location.href='index.html';" style="cursor: pointer;"></a>
+          <a href="carrito.html"><img src="img/carrito.webp" width="34" alt=""
+            onclick="window.location.href='index.html';" style="cursor: pointer;"></a>
+          <input class="form-control me-2 search" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn0 btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar bg-body-tertiary">
+    <form class="container-fluid justify-content-start; justify-content-center"
+      style="background-color: #1d1d1d; padding: 10px;">
+      <button class="btn btn-sm" style="margin: 5px; color: whitesmoke;" type="button">OFERTAS!</button>
+      <button class="btn btn-sm" style="margin: 5px; color: whitesmoke;" type="button">HOMBRE</button>
+      <button class="btn btn-sm" style="margin: 5px; color: whitesmoke;" type="button">MUJER</button>
+      <button class="btn btn-sm" style="margin: 5px; color: whitesmoke;" type="button">CATEGORIAS</button>
+      <button class="btn btn-sm" style="margin: 5px; color: whitesmoke;" type="button">MARCAS</button>
+      <button class="btn btn-sm" style="margin: 5px; color: whitesmoke;" type="button">MAS VENDIDOS</button>
+    </form>
+  </nav>
+
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" ;>
+        <img src="img/LoganPuff-Cream-OnBody_2000x.webp" class="d-block w-100 mx-auto" alt=""
+          onclick="window.location.href='index.html';" style="cursor: pointer; object-position: bottom;">
+      </div>
+      <div class="carousel-item">
+        <img src="img/vansbaners.webp" class="d-block w-100 mx-auto" alt="" onclick="window.location.href='index.html';"
+          style="cursor: pointer;">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banernike.jpg" class="d-block w-100 mx-auto" alt="" onclick="window.location.href='index.html';"
+          style="cursor: pointer; object-position: top;">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div style="background-color: #1d1d1d; padding: 20px;">
+    <strong
+      style="text-align: center; display: block; margin: 0 auto; color: whitesmoke; font-size: xx-large;">DESTACADOS</strong>
+  </div>
+
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="card h-100" style="width: 18rem;">
+          <img src="img/Logan-BlackPuff1_5000x.webp" class="card-img-top" alt="" onclick="location.href='strayeloganpuff.html';" style="cursor: pointer;
+            object-fit: cover; height: 350px; object-position: bottom;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Straye LoganPuff Black</h5>
+            <p class="card-text"> Zapatillas para hombre</p>
+            <div class="mt-auto">
+              <a href="strayeloganpuff.html" class="btn btn-primary; buttoncolor">$93.100</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="card h-100" style="width: 18rem;">
+          <img src="img/vansknu.jpg" class="card-img-top" alt="" onclick="location.href='vansknu.html';"
+            style="cursor: pointer; object-fit: cover; height: 350px; object-position: bottom;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Vans Knu Skool</h5>
+            <p class="card-text">Zapatillas para hombre</p>
+            <div class="mt-auto">
+              <a href="vansknu.html" class="btn btn-primary; buttoncolor">$72.990</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="card h-100" style="width: 18rem;">
+          <img src="img/niketn.jpg" class="card-img-top" alt="" onclick="location.href='niketn-html';"
+            style="cursor: pointer; object-fit: cover; height: 350px; object-position: bottom;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Nike Air Max Plus TN</h5>
+            <p class="card-text">Zapatillas para mujer</p>
+            <div class="mt-auto">
+              <a href="niketn.html" class="btn btn-primary; buttoncolor">$182.990</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="card h-100" style="width: 18rem;">
+          <img src="img/hoodiehockey.webp" class="card-img-top" alt="" onclick="location.href='hoodiehockey.html';"
+            style="cursor: pointer; object-fit: cover; height: 350px; object-position: bottom;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Hoodie Hockey</h5>
+            <p class="card-text">Hoodie Hockey unisex</p>
+            <div class="mt-auto">
+              <a href="hoodiehockey.html" class="btn btn-primary; buttoncolor">$87.990</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div style="text-align: center;">
+    <img src="img/Limpieza_de_Zapatillas_600x.webp" alt="" onclick="location.href='limpiezatillas.html';"
+      style="cursor: pointer;">
+    <img src="img/Jockeys_600x.webp" alt="" onclick="location.href='caps.html';"
+      style="cursor: pointer;">
+  </div>
+
+  <br>
+
+  <div style="background-color: #1d1d1d; padding: 20px;">
+    <strong
+      style="text-align: center; display: block; margin: 0 auto; color: whitesmoke; font-size: xx-large;">PROMOS</strong>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="img/Boo-FuegoHat_2000x.webp" style="width: 100%; cursor: pointer;" alt=""
+      onclick="window.location.href='#';">
+    <img src="img/fuckingawesome.png" style=" width: 100%; cursor: pointer;" alt=""
+      onclick="window.location.href='#';">
+  </div>
+
+  <br>
+
+  <div style="text-align: center;">
+    <div class="row">
+      <div class="col-lg-6" style="margin-right: 0px;">
+        <img src="img/cat_hombre.png" style="width: 600px; cursor: pointer;" alt="" onclick="window.location.href='#';" style="cursor: pointer;">
+      </div>
+      <div class="col-lg-6" style=" margin-left: 0px;">
+        <img src="img/cat_mujer.png" style="width: 600px; cursor: pointer;" alt="" onclick="window.location.href='#';" style="cursor: pointer;">
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div style="background-color: #1d1d1d; padding: 20px;">
+    <strong
+      style="color: whitesmoke; text-align: center; display: block; margin: 0 auto; font-size: xx-large;">SORPRENDENTES</strong>>
+  </div>
+
+  <br>
+
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="card h-100" style="width: 18rem;">
+                <img src="img/j4_thunder.jpg" class="card-img-top"
+                  style="cursor: pointer; object-fit: cover; height: 350px; object-position: bottom;" alt="" onclick="location.href='j4thunder.html';">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Air Jordan Retro 4 Thunder</h5>
+                  <p class="card-text"></p>
+                  <div class="mt-auto">
+                    <a href="j4thunder.html" class="btn btn-primary; buttoncolor">$329.990</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card h-100" style="width: 18rem;">
+                <img src="img/niketech_nocta.webp" class="card-img-top"
+                  style="height: 350px; cursor: pointer;" alt="" onclick="location.href='technocta.html';">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Nike Tech x Nocta</h5>
+                  <p class="card-text"></p>
+                  <div class="mt-auto">
+                    <a href="technocta.html" class="btn btn-primary; buttoncolor">$156.990</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card h-100" style="width: 18rem;">
+                <img src="img/FA_ripbandit.webp" class="card-img-top"
+                  style="height: 350px; cursor: pointer;" alt="" onclick="location.href='faripbandit.html';">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">R.I.P. Bandit Lightweight Bomber</h5>
+                  <p class="card-text"></p>
+                  <div class="mt-auto">
+                    <a href="faripbandit.html" class="btn btn-primary; buttoncolor">$144.990</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row; col-lg-3">
+              <div class="card h-100" style="width: 18rem;">
+                <img src="img/adi2000.webp" class="card-img-top"
+                  style="height: 350px; cursor: pointer;" alt="" onclick="location.href='adi2000wht.html';">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Adidas Adi2000</h5>
+                  <p class="card-text"></p>
+                  <div class="mt-auto">
+                    <a href="adi2000wht.html" class="btn btn-primary; buttoncolor">$89.990</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="card h-100" style="width: 18rem;">
+                <img src="img/59fifty_wonkaa.jpg" class="card-img-top"
+                  style="height: 350px; cursor: pointer;" alt="" onclick="location.href='capwonka.html';">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Gorra 59Fifty Willy Wonka Purple</h5>
+                  <p class="card-text"></p>
+                  <div class="mt-auto">
+                    <a href="capwonka.html" class="btn btn-primary; buttoncolor">$49.990</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card h-100" style="width: 18rem;">
+                <img src="img/hoodiesupreme.webp" class="card-img-top"
+                  style="height: 350px; cursor: pointer;" alt="" onclick="location.href='hoodiesupreme.html';">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Hoodie Supreme</h5>
+                  <p class="card-text"></p>
+                  <div class="mt-auto">
+                    <a href="hoodiesupreme.html" class="btn btn-primary; buttoncolor">$219.990</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card h-100" style="width: 18rem;">
+                <img src="img/adidas_campus.webp" class="card-img-top"
+                  style="height: 350px; cursor: pointer;" alt="" onclick="location.href='campuspink.html';">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Campus 00s W</h5>
+                  <p class="card-text"></p>
+                  <div class="mt-auto">
+                    <a href="campuspink.html" class="btn btn-primary; buttoncolor">94.990</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card h-100" style="width: 18rem;">
+                  <img src="img/pumasuedexl_pleassure.webp" class="card-img-top"
+                    style="height: 350px; cursor: pointer;" alt="" onclick="location.href='suedexlplsr.html';">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Puma Suede XL Pleassures</h5>
+                  <p class="card-text"></p>
+                  <div class="mt-auto">
+                    <a href="suedexlplsr.html" class="btn btn-primary; buttoncolor">$144.990</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <br>
+
+    <footer style="background-color: #1d1d1d;" class="text-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <h5>Enlaces rápidos</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="#">Catálogo</a></li>
+              <li><a href="#">Ofertas</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <h5>Redes Sociales</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <h5>Contacto</h5>
+            <p>Teléfono: 123-456-7890</p>
+            <p>Email: info@viostore.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

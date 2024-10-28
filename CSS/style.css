@@ -1,0 +1,62 @@
+body {
+    font-family: monospace;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 700px;
+    /* Altura determinada */
+    object-fit: cover;
+    /* Recorte la imagen para que se ajuste al contenedor */
+    object-position: center;
+    /* Centra la imagen dentro del contenedor */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+}
+
+li {
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    /*SIRVE PARA MOSTRAR CUANDO SE PASE SOBRE EL BOTON*/
+    color: grey;
+    border-radius: 16px;
+    /*SIRVE PARA REDONDEAR LAS ESQUINAS DEL BOTON*/
+}
+
+.buttoncolor {
+    background-color: lightgray;
+    outline-color: lightgray;
+    color: black;
+}
+
+.search{
+    height: 40px;
+   width: 80%;
+   border-radius: 60px;
+   outline: none;
+   margin-right: -35px;
+   border: 2px solid #b1b1b1;
+}
+.btn5{
+    height: 40px;
+    width: 50px;
+    outline: none;
+    border: none;
+    background: #b1b1b1;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700px;
+}
